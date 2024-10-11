@@ -1,0 +1,10 @@
+.csv-output {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
