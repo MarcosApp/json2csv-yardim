@@ -75,8 +75,7 @@ O projeto é automaticamente implantado no GitHub Pages após cada commit na bra
 Acesse o projeto online em: [https://marcosapp.github.io/json2csvyardim](https://marcosapp.github.io/json2csvyardim)
 
 ## 🖼️ Imagens
-
-![JSON2CSV Preview](https://via.placeholder.com/800x400?text=Preview+da+aplica%C3%A7%C3%A3o)
+![image](https://github.com/user-attachments/assets/5211eff9-5551-4d76-abe8-00fc7c063e0f)
 
 ## 🧑‍💻 Autor
 
