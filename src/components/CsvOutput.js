@@ -10,7 +10,7 @@ function CsvOutput({ value }) {
     };
 
     return (
-        <div className="form-group">
+        <div className="form-group mt-3">
             <label>CSV Resultante:</label>
             <textarea
                 className="csv-output"
