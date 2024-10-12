@@ -34,5 +34,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Usa o token padrão do GitHub para deploy
+          github_token: ${{ secrets.GITHUB_TOKEN }}   # Usa o token padrão do GitHub para deploy
           publish_dir: ./build  # Diretório onde o build do React é gerado
