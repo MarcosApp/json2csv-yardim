@@ -1,0 +1,38 @@
+name: Build and Deploy to GitHub Pages
+
+# Aciona o workflow sempre que houver um push na branch `main`
+on:
+  push:
+    branches:
+      - main
+
+# Define o job
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Pega o código do repositório
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Instala o Node.js (especificando a versão desejada, por exemplo, 14.x)
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      # Instala as dependências
+      - name: Install dependencies
+        run: npm install
+
+      # Faz o build do projeto
+      - name: Build the project
+        run: npm run build
+
+      # Faz o deploy para a branch `gh-pages`
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Usa o token padrão do GitHub para deploy
+          publish_dir: ./build  # Diretório onde o build do React é gerado
