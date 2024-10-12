@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/json2csv-yardim/static/css/main.564eb876.css",
+    "main.js": "/json2csv-yardim/static/js/main.8b7a0f57.js",
+    "static/js/453.32d6c695.chunk.js": "/json2csv-yardim/static/js/453.32d6c695.chunk.js",
+    "index.html": "/json2csv-yardim/index.html",
+    "main.564eb876.css.map": "/json2csv-yardim/static/css/main.564eb876.css.map",
+    "main.8b7a0f57.js.map": "/json2csv-yardim/static/js/main.8b7a0f57.js.map",
+    "453.32d6c695.chunk.js.map": "/json2csv-yardim/static/js/453.32d6c695.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.564eb876.css",
+    "static/js/main.8b7a0f57.js"
+  ]
+}
